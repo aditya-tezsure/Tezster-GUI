@@ -6,7 +6,7 @@
   textarea {
     width: 450px;
     height: 75px;
-    font-family: "Roboto";
+    font-family: "Gilroy";
   }
   
   label {
@@ -16,6 +16,8 @@
     margin-right: 10px;
     font: bold;
     color: #00C68E;
+    font-family: 'Gilroy';
+
   }
 
   h4 {

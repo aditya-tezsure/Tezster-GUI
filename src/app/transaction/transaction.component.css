@@ -1,13 +1,19 @@
 #walletDropdown {
 	margin-top: 1%;
+	font-family: 'Gilroy';
+
 }
 
 #text {
 	margin-left: 1%;
+	font-family: 'Gilroy';
+
 }
 
 select {
 	margin-left: 1%;
+	font-family: 'Gilroy';
+
 }
 
 #transactions {
@@ -17,7 +23,7 @@ select {
 }
 
 #transactionData {
-	font-family: 'Roboto';
+	font-family: 'Gilroy';
 	border-collapse: collapse;
 	margin-top: .5%;
 	width: 100%;

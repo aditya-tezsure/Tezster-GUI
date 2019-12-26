@@ -5,7 +5,7 @@
     padding: 8px;
     text-align: center;
     text-decoration: none;
-      font-family: 'Roboto';
+      font-family: 'Gilroy';
     font-size: 16px;
     border-radius: 5px;
     margin-top: 8px;
@@ -21,6 +21,8 @@
     text-decoration: none;
     font-size: 16px;
     border-radius: 5px;
+    font-family: 'Gilroy';
+
   }
 
   .nav.navbar-nav li a {
@@ -29,7 +31,7 @@
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Roboto';
+    font-family: 'Gilroy';
     font-size: 16px;
     margin-top: 8px;
 
@@ -41,6 +43,8 @@
     border: none;
     color: #00C68E;
     border-radius: 5px;
+    font-family: 'Gilroy';
+
   }
 
 #outer-div {
@@ -57,10 +61,12 @@
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
+    font-family: 'Gilroy';
+
 }
 
 #table-data {
-    font-family: 'Roboto';
+    font-family: 'Gilroy';
     border-collapse: collapse;
     width: 100%;
 }

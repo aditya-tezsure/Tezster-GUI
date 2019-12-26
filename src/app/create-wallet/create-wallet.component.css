@@ -6,6 +6,9 @@
 textarea{
     width:450px;
     height:75px;
+    font-family: 'Gilroy';
+
+
 }
 
 .btn btn-primary{
@@ -20,6 +23,7 @@ label{
     margin-right: 10px;
     font: bold; 
     color: #00C68E;     
+    font-family: 'Gilroy';
 }
 
 img{
