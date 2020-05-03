@@ -140,3 +140,28 @@ export function handleInvokeContractAction({ ...params }) {
     });
   };
 }
+
+export function addContractAction({ ...params }) {
+  return (dispatch) => {
+    dispatch({
+      type: 'BUTTON_LOADING_STATE',
+      payload: true,
+    });
+    setTimeout(() => {
+      const __localStorage__ = JSON.parse(localStorage.getItem('tezsure'));
+      __localStorage__.contracts[
+        params.dashboardHeader.networkId.split('-')[0]
+      ].push({
+        name: params.contractLabel,
+        originated_contracts: params.contractId,
+        contract: null,
+      });
+      localStorage.setItem('tezsure', JSON.stringify({ ...__localStorage__ }));
+      swal('Success!', `Contract added successfully`, 'success');
+      dispatch({
+        type: 'BUTTON_LOADING_STATE',
+        payload: false,
+      });
+    }, 1000);
+  };
+}

@@ -33,6 +33,7 @@ import {
   deployContractAction,
   getContractStorageAction,
   getAccountBalanceAction,
+  addContractAction,
 } from '../actions/Workspace/contracts';
 import {
   getDashboardHeaderAction,
@@ -94,6 +95,7 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(executeTransactionAction(payload)),
   handleContractsTabChangeAction: (payload) =>
     dispatch(handleContractsTabChangeAction(payload)),
+  addContractAction: (payload) => dispatch(addContractAction(payload)),
   getContractStorageAction: (payload) =>
     dispatch(getContractStorageAction(payload)),
   handleTezsterCliActionChange: (payload) =>
