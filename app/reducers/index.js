@@ -30,6 +30,13 @@ import {
   selectedContractAmountBalance,
 } from './Workspace/contracts';
 import { isAvailableTezsterCli, localConfig } from './onBoard';
+import {
+  tezsterError,
+  tezsterImageDownload,
+  tezsterSetup,
+  tezsterStartNodes,
+  tezsterStopNodes,
+} from './Tezster';
 
 export default function createRootReducer(history: HashHistory) {
   return combineReducers<{}, *>({
@@ -54,5 +61,10 @@ export default function createRootReducer(history: HashHistory) {
     isAvailableTezsterCli,
     localConfig,
     currentTab,
+    tezsterError,
+    tezsterImageDownload,
+    tezsterSetup,
+    tezsterStartNodes,
+    tezsterStopNodes,
   });
 }
